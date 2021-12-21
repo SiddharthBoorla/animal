@@ -1,0 +1,35 @@
+class AnimalClass{
+    public static void main(String[] args) {
+        Doggy L = new Doggy("Hersy", 1);
+        System.out.println("Dog name is : " + L.getName());
+        System.out.println("Dog age is: " + L.getAge ());
+    }
+}
+
+class Doggy{
+
+
+    String name;
+    int age;
+
+
+
+    public Doggy (String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setAge (int age){
+        this.age = age;
+    }
+    public void setName (String name){
+        this.name = name;
+    }
+}
+
